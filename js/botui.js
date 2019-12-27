@@ -26,11 +26,11 @@ function bot_ui_ini() {
     }).then(function () {
         botui.message.add({
             delay: 1100,
-            content: "这里是 Mashiro"
+            content: "这里是 没有人"
         }).then(function () {
             botui.message.add({
                 delay: 1100,
-                content: "一个可爱的蓝孩子~"
+                content: "一个低调的男人~"
             }).then(function () {
                 botui.action.button({
                     delay: 1600,
@@ -65,32 +65,32 @@ function bot_ui_ini() {
         secondpart = function () {
             botui.message.add({
                 delay: 1500,
-                content: "目前就读于上海财经大学"
+                content: "毕业于河北科技大学~"
             }).then(function () {
                 botui.message.add({
                     delay: 1500,
-                    content: "向往技术却误入商科，但后来喜欢上了经济学…"
+                    content: "是一个半路出家的DevOps~"
                 }).then(function () {
                     botui.message.add({
                         delay: 1200,
-                        content: "因为数据分析也需要Coder嘛"
+                        content: "喜欢鼓捣各种好玩的技术，乐在其中"
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "主攻 R 语言和 Python，略懂 STATA，偶尔也折腾 HTML/CSS/JavaScript/PHP"
+                            content: "擅长shell脚本，熟练使用负载均衡及tomcat、zabbix，redis及mysql也不在话下，偶尔也折腾 HTML/CSS/JavaScript"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
-                                content: "研究的方向，是经济/金融方向的数据分析（data science）以及机器学习（machine learning）"
+                                content: "熟悉aliyun、aws云平台，掌握docker & k8s 等容器化服务部署及维护，关注云原生服务"
                             }).then(function () {
                                 botui.message.add({
                                     delay: 1800,
-                                    content: "喜欢画画，希望有一天能够被称为画师"
+                                    content: "了解java及python，希望有一天可以成为名副其实的Dev+Ops"
                                 }).then(function () {
                                     botui.action.button({
                                         delay: 1100,
                                         action: [{
-                                            text: "为什么叫Mashiro呢？ 🤔",
+                                            text: "为什么叫没有人呢？ 🤔",
                                             value: "why-mashiro"
                                         }]
                                     }).then(function (a) {
@@ -106,12 +106,12 @@ function bot_ui_ini() {
         thirdpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "Mashiro以及站名都来自一部动画，因为和主角有一样的爱好~ 如果有兴趣可以找找首页上的视频~"
+                content: "我很低调的，不会夸自己~当大家自夸说没有人比我厉害时，我只会点头称是~"
             }).then(function () {
                 botui.action.button({
                     delay: 1500,
                     action: [{
-                        text: "为什么是白猫呢？ 🤔",
+                        text: "为什么是ウサギ(兔子)？ 🤔",
                         value: "why-cat"
                     }]
                 }).then(function (a) {
@@ -122,11 +122,11 @@ function bot_ui_ini() {
         fourthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "因为对GitHub有种执念… "
+                content: "因为这个头像啦，用了快18年啦，我是一个腹黑的兔子~ "
             }).then(function () {
                 botui.message.add({
                     delay: 1100,
-                    content: "而且我真的是猫控！"
+                    content: "而且我真的喜欢在背后某某掌控一切的感觉"
                 }).then(function () {
                     botui.action.button({
                         delay: 1500,
@@ -143,7 +143,7 @@ function bot_ui_ini() {
         fifthpart = function () {
             botui.message.add({
                 delay: 1E3,
-                content: "emmmm，看备案信息你就知道了=.= 本来想要zheng.xin的，但50万真买不起。。"
+                content: "emmmm，本来想要自己的真名的。被人注册了，于是这是我闺女的名字啦"
             }).then(function () {
                 botui.message.add({
                     delay: 1600,

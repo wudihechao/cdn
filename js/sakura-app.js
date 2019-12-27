@@ -252,7 +252,6 @@ function code_highlight_style () {
       'autocapitalize': 'off',
       'spellcheck': 'false',
       'contenteditable': 'false',
-      'design': 'by hojun'
     }
     var ele_name = $('pre:eq(' + i + ')')[0].children[0].className
     var lang = ele_name.substr(0, ele_name.indexOf(' ')).replace('language-', '')
