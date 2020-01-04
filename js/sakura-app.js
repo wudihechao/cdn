@@ -697,7 +697,6 @@ var pjaxInit = function () {
   smileBoxToggle()
   timeSeriesReload()
   add_copyright()
-  console.log($('#myscript').text())
 }
 $(document).on('click', '.sm', function () {
   var msg = '您真的要设为私密吗？'
@@ -1089,7 +1088,7 @@ var home = location.href,
     },
     AB: function () {
       if (window.location.pathname.indexOf('about') > -1) {
-        $.getScript('/js/botui.js', function () {
+        $.getScript('//cdn.jsdelivr.net/gh/wudihechao/cdn@1.49/js/botui.js', function () {
           if (typeof(botui) == undefined && !botui.message) {
             bot_ui_ini()
           }
