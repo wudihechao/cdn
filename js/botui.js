@@ -77,7 +77,7 @@ function bot_ui_ini() {
                     }).then(function () {
                         botui.message.add({
                             delay: 1500,
-                            content: "擅长shell脚本，熟练使用负载均衡及tomcat、zabbix，redis及mysql也不在话下，偶尔也折腾 HTML/CSS/JavaScript"
+                            content: "擅长shell脚本，熟练使用负载均衡及tomcat、zabbix及Ansible、ELK等工具，redis及mysql也不在话下，偶尔也折腾 HTML/CSS/JavaScript"
                         }).then(function () {
                             botui.message.add({
                                 delay: 1500,
