@@ -1088,7 +1088,7 @@ var home = location.href,
     },
     AB: function () {
       if (window.location.pathname.indexOf('about') > -1) {
-        $.getScript('//cdn.jsdelivr.net/gh/wudihechao/cdn@1.49/js/botui.js', function () {
+        $.getScript('//cdn.jsdelivr.net/gh/wudihechao/cdn@1.56/js/botui.js', function () {
           if (typeof(botui) == undefined && !botui.message) {
             bot_ui_ini()
           }
